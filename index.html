@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar Tarakji</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b1fbc7a0ea.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="backdrop">
+      <a href="index.html" class="header-home text-gradient">Omar Tarakji</a>
+      <button id="menu-button"><i class="fa-solid fa-bars"></i></button>
+      <ul id="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <section id="home">
+        <article>
+          <p>👋🏻 Hello, I'm</p>
+          <h1><span class="text-gradient">Omar Tarakji</span></h1>
+          <h2>Software Engineer | Flutter Developer</h2>
+          <p>
+            I build intuitive cross-platform mobile apps and IoT-integrated
+            systems.
+          </p>
+          <div>
+            <button class="gradient-button">
+              View Projects
+              <i class="fa-solid fa-aTrrow-up-right-from-square"></i>
+            </button>
+            <button>
+              Contact Me
+              <i class="fa-solid fa-envelope"></i>
+            </button>
+          </div>
+          <div class="home-details">
+            <i class="fa-solid fa-circle"></i>
+            <span>Available for work</span>
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Aleppo, Syria</span>
+          </div>
+        </article>
+        <img src="assets/images/coding-2.jpg" alt="" />
+        <div class="scroll-more">
+          <p>Scroll to explore</p>
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </section>
+      <section id="about">
+        <header>
+          <h2 class="text-gradient">About Me</h2>
+          <div class="header-divider"></div>
+        </header>
+        <img src="assets/images/me.jpg" alt="" />
+        <article>
+          <h3>Flutter Developer & Software Engineer</h3>
+          <p>
+            Flutter Developer and Software Engineer with a passion for building
+            intuitive mobile experiences. Skilled in Dart, Java, and Kotlin,
+            with hands-on experience developing cross-platform apps and
+            integrating IoT systems.
+          </p>
+          <p>
+            Creator of a smart home prototype with real-time sensor feedback and
+            push notifications. I focus on clean architecture and scalable
+            solutions that deliver exceptional user experiences.
+          </p>
+          <div class="list-tile">
+            <div class="list-tile-icon"><i class="fa-solid fa-mobile"></i></div>
+            <div>
+              <h4>Mobile Development</h4>
+              <p class="list-tile-subtitle">
+                Cross-platform apps with Flutter & Dart
+              </p>
+            </div>
+          </div>
+          <div class="list-tile">
+            <div class="list-tile-icon">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div>
+              <h4>IoT Integration</h4>
+              <p class="list-tile-subtitle">ESP32 and smart home systems</p>
+            </div>
+          </div>
+          <div class="list-tile">
+            <div class="list-tile-icon"><i class="fa-solid fa-code"></i></div>
+            <div>
+              <h4>clean Architecture</h4>
+              <p class="list-tile-subtitle">
+                Scalable code with best practices
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="projects">
+        <header>
+          <h2 class="text-gradient">Featured Projects</h2>
+          <div class="header-divider"></div>
+          <p>A showcase of my latest work</p>
+        </header>
+        <article class="project">
+          <img src="assets/images/smart-home.jpg" alt="" />
+          <div class="project-icon">
+            <i class="fa-solid fa-mobile"></i>
+          </div>
+          <div class="project-details">
+            <h3>Smart Home System</h3>
+            <p class="project-subtitle">Graduation Project (2024-2025)</p>
+            <p>
+              Full-stack system integrating Flutter, Supabase, and ESP32 with
+              real-time sensor monitoring, device control, and push
+              notifications. Features multilingual UI (English/Arabic) and
+              scalable architecture using Riverpod + Repository Pattern.
+            </p>
+            <p>Key Features:</p>
+            <ul>
+              <li>Real-time sensor monitoring</li>
+              <li>Device control interface</li>
+              <li>Push notifications (FCM)</li>
+              <li>Multilingual support</li>
+              <li>ESP32 integration</li>
+            </ul>
+            <ul class="tags">
+              <li>Flutter</li>
+              <li>Dart</li>
+              <li>Supabase</li>
+              <li>ESP32</li>
+              <li>IoT</li>
+              <li>Riverpod</li>
+              <li>FCM</li>
+            </ul>
+            <div class="project-actions">
+              <a
+                href="https://github.com/OmarTarakji/smart_home_app/releases/download/v1.2.2/app-release.apk"
+                class="expanded button gradient-button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                Download Apk</a
+              ><a
+                href="https://github.com/OmarTarakji/smart_home_app"
+                class="button"
+                ><i class="fa-brands fa-github"></i> Github</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="project">
+          <img src="assets/images/donuts.png" alt="" />
+          <div class="project-icon">
+            <i class="fa-solid fa-gamepad"></i>
+          </div>
+          <div class="project-details">
+            <h3>Match the Donuts!</h3>
+            <p class="project-subtitle">Personal Project</p>
+            <p>
+              Flutter-based puzzle game featuring randomized rounds, health
+              system, and background music. Demonstrates advanced game logic,
+              state management, and engaging UI design with smooth animations.
+            </p>
+            <p>Key Features:</p>
+            <ul>
+              <li>Randomized game rounds</li>
+              <li>Health system mechanics</li>
+              <li>Background music & SFX</li>
+              <li>Smooth animations</li>
+              <li>Score tracking</li>
+            </ul>
+            <ul class="tags">
+              <li>Flutter</li>
+              <li>Dart</li>
+              <li>Game Development</li>
+              <li>State Management</li>
+            </ul>
+            <div class="project-actions">
+              <a
+                href="https://github.com/OmarTarakji/match_the_donuts/releases/download/1.0.0/app-release.apk"
+                class="expanded button gradient-button"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                Download Apk</a
+              ><a
+                href="https://github.com/OmarTarakji/match_the_donuts"
+                class="button"
+                ><i class="fa-brands fa-github"></i> Github</a
+              >
+            </div>
+          </div>
+        </article>
+        <footer>
+          <p>
+            More projects coming soon! Currently working on exciting new mobile
+            apps and IoT integrations.
+          </p>
+          <a href="https://github.com/OmarTarakji" class="button"
+            >All Projects</a
+          >
+        </footer>
+      </section>
+      <section id="skills"></section>
+      <section id="contact"></section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
