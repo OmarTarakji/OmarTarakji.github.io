@@ -1,0 +1,6 @@
+{
+    "workbench.iconTheme": "catppuccin-latte",
+    "editor.cursorBlinking": "expand",
+    "editor.overtypeCursorStyle": "block",
+    "editor.cursorSmoothCaretAnimation": "on"
+}
